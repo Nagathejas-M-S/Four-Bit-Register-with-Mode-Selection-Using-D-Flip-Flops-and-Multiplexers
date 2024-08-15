@@ -1,0 +1,244 @@
+$date
+	Fri Nov 24 11:48:00 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_register $end
+$var wire 4 ! Y [3:0] $end
+$var reg 1 " CLK $end
+$var reg 4 # D [3:0] $end
+$var reg 1 $ RESET $end
+$var reg 2 % S [1:0] $end
+$scope module uut $end
+$var wire 1 " CLK $end
+$var wire 4 & D [3:0] $end
+$var wire 1 $ RESET $end
+$var wire 2 ' S [1:0] $end
+$var wire 4 ( mux_out [3:0] $end
+$var wire 4 ) middle [3:0] $end
+$var wire 4 * link [3:0] $end
+$var reg 4 + Y [3:0] $end
+$scope module d0 $end
+$var wire 1 " CLK $end
+$var wire 1 , D $end
+$var wire 1 $ RESET $end
+$var reg 1 - Q $end
+$upscope $end
+$scope module d1 $end
+$var wire 1 " CLK $end
+$var wire 1 . D $end
+$var wire 1 $ RESET $end
+$var reg 1 / Q $end
+$upscope $end
+$scope module d2 $end
+$var wire 1 " CLK $end
+$var wire 1 0 D $end
+$var wire 1 $ RESET $end
+$var reg 1 1 Q $end
+$upscope $end
+$scope module d3 $end
+$var wire 1 " CLK $end
+$var wire 1 2 D $end
+$var wire 1 $ RESET $end
+$var reg 1 3 Q $end
+$upscope $end
+$scope module i0 $end
+$var wire 1 4 i $end
+$var wire 1 5 o1 $end
+$upscope $end
+$scope module i1 $end
+$var wire 1 6 i $end
+$var wire 1 7 o1 $end
+$upscope $end
+$scope module i2 $end
+$var wire 1 8 i $end
+$var wire 1 9 o1 $end
+$upscope $end
+$scope module i3 $end
+$var wire 1 : i $end
+$var wire 1 ; o1 $end
+$upscope $end
+$scope module mux0 $end
+$var wire 1 < I0 $end
+$var wire 1 = I1 $end
+$var wire 1 > I2 $end
+$var wire 1 ? I3 $end
+$var wire 2 @ S [1:0] $end
+$var reg 1 A O $end
+$upscope $end
+$scope module mux1 $end
+$var wire 1 B I0 $end
+$var wire 1 C I1 $end
+$var wire 1 D I2 $end
+$var wire 1 E I3 $end
+$var wire 2 F S [1:0] $end
+$var reg 1 G O $end
+$upscope $end
+$scope module mux2 $end
+$var wire 1 H I0 $end
+$var wire 1 I I1 $end
+$var wire 1 J I2 $end
+$var wire 1 K I3 $end
+$var wire 2 L S [1:0] $end
+$var reg 1 M O $end
+$upscope $end
+$scope module mux3 $end
+$var wire 1 N I0 $end
+$var wire 1 O I1 $end
+$var wire 1 P I2 $end
+$var wire 1 Q I3 $end
+$var wire 2 R S [1:0] $end
+$var reg 1 S O $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0S
+b0 R
+0Q
+0P
+1O
+0N
+0M
+b0 L
+0K
+0J
+1I
+0H
+0G
+b0 F
+0E
+0D
+1C
+0B
+0A
+b0 @
+0?
+0>
+1=
+0<
+1;
+0:
+19
+08
+17
+06
+15
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+b0 +
+b1111 *
+b0 )
+b0 (
+b0 '
+b0 &
+b0 %
+1$
+b0 #
+0"
+b0 !
+$end
+#2
+1,
+10
+12
+b1101 #
+b1101 &
+0$
+#5
+0O
+0I
+b1101 !
+b1101 +
+0=
+0;
+1M
+1S
+09
+b1101 (
+1A
+b10 *
+05
+1J
+1N
+1:
+1D
+1H
+1Q
+18
+1<
+1E
+14
+13
+11
+b1101 )
+1-
+1"
+#10
+0"
+#12
+b10 !
+b10 +
+0A
+1G
+0M
+b10 (
+0S
+b1 %
+b1 '
+b1 @
+b1 F
+b1 L
+b1 R
+#15
+1"
+#20
+0"
+#22
+b110 !
+b110 +
+b110 (
+1M
+b10 %
+b10 '
+b10 @
+b10 F
+b10 L
+b10 R
+#25
+1"
+#30
+0"
+#32
+b1010 !
+b1010 +
+0M
+b1010 (
+1S
+b11 %
+b11 '
+b11 @
+b11 F
+b11 L
+b11 R
+#35
+1"
+#40
+0"
+#42
