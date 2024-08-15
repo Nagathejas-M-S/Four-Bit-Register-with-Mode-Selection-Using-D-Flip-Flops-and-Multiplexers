@@ -28,17 +28,21 @@ GTKWave: For waveform visualization.
 ### Running the Simulation
 
 Clone the repository to your local machine.
-'''bash git clone https://github.com/your-username/four-bit-register-verilog.git
+'''bash 
+git clone https://github.com/Nagathejas-M-S/Four-Bit-Register-with-Mode-Selection-Using-D-Flip-Flops-and-Multiplexers.git
 
 Navigate to the project directory.
-'''bash cd four-bit-register-verilog
+'''bash 
+cd four-bit-register-verilog
 
 Compile and run the simulation using Icarus Verilog.
-'''bash iverilog -o register_sim new.v newtb.v
-'''bash vvp register_sim
+'''bash 
+iverilog -o register_sim new.v newtb.v
+vvp register_sim
 
 View the waveform in GTKWave.
-'''bash gtkwave waveform.vcd
+'''bash 
+gtkwave waveform.vcd
 
 ## Project Structure
 new.v: Contains the Verilog code for the four-bit register, D flip-flops, and multiplexers.
